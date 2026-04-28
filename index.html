@@ -359,7 +359,7 @@ tbody tr:hover td{background:var(--cream);cursor:pointer;}
   // ── Environment auto-detection (staging vs production) ──
   // Frontend di-deploy ke 2 worker; hostname yang berbeda mengarahkan ke
   // Apps Script URL berbeda → DB Google Sheets juga otomatis terpisah.
-  var SHEETS_URL_STAGING = 'PASTE_STAGING_APPS_SCRIPT_URL_HERE';
+  var SHEETS_URL_STAGING = 'https://script.google.com/macros/s/AKfycbxdpYmv3AUqcS0P7Lv-3LRYBV4nDoscDSfcupsN0UwvQt01E0Z3-YLwuLglY9iILGkl/exec';
   var SHEETS_URL_PROD    = 'https://script.google.com/macros/s/AKfycbw3pWXUCvStevJLIA2x1r7n39Hb2UrCNYuGzwUbzLVpMtyd_ICBMS8RLR3ZqLo9_PqRaw/exec';
 
   var IS_STAGING = location.hostname.indexOf('staging') !== -1
