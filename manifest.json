@@ -1,0 +1,17 @@
+{
+  "name": "VSK Bahan Baku — Varian Sumber Karya",
+  "short_name": "VSK Bahan Baku",
+  "description": "Sistem Pencatatan Kedatangan Bahan Baku Cocopeat",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f4",
+  "theme_color": "#faf8f4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' fill='%230b1209' rx='24'/><text y='130' x='96' font-size='110' text-anchor='middle' font-family='monospace' fill='%23b07730'>B</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
